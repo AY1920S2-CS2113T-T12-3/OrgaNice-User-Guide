@@ -34,28 +34,6 @@ img {
 
 <script src="jsCodes/topButton.js"></script>
 
-<style>
-a.backlink {
-	background-color: #0ED7D3;
-  color: white;
-  padding: 1em 1.5em;
-  position: relative;
-  text-decoration: none;
-}
-
-a.backlink:hover {
-  background-color: #15E3DF;
-  cursor: pointer;
-}
-
-a.backlink:active {
-  box-shadow: none;
-  top: 5px;
-}
-</style>
-
-<a href="https://ay1920s2-cs2113t-t12-3.github.io/tp/" class="backlink">Back to OrgaNice!'s main page</a>
-
 # OrgaNice! - User Guide
 
 ## Table Of Contents
