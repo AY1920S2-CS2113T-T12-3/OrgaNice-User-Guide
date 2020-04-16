@@ -155,7 +155,7 @@ OrgaNice! aims to assist NUS students, and more specifically, users who are comf
 <a name="add-deadline"></a>
 
 ### 3.1. Add new Deadline task (Sanath)
-Adds a new deadline task to track a task which needs to be finished before a specific date.
+In case you wanted to track a new deadline task such as an assignment which is due, the `deadline` command could be used. It adds a new deadline task to track a task which needs to be finished before a specific date.
 
 #### Usage
 
@@ -186,7 +186,7 @@ Upon success a response similar to the following one would appear:
 <a name="add-event"></a>
 
 ### 3.2 Add new Event task (Sanath)
-Adds a new deadline task to track a task which needs to be finished before a specific date.
+In case you wanted to track a new event task such as a meeting, the `event` command could be used. It adds a new event task to be tracked.
 
 #### Usage
 
@@ -1103,7 +1103,7 @@ Expected output:
 <a name="exit"></a>
 
 ### 3.16. Exit the Application / Study Area interface (Sanath)
-You use this command to exit the application. Before the actual application is exited the 
+If you are done using the application and want to exit it the `exit` command can be used. Before the actual application is exited the 
 tasks currently in the list are stored in a file. This command is used for exiting the main interface and the
 secondary study area search interface.
 
