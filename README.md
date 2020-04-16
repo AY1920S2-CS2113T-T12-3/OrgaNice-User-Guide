@@ -205,7 +205,7 @@ The following adds a Team Meeting which is set to take place on 06-05-2020 from 
 `event Team Meeting /d 2020-06-06 /s 09:00 /e 12:00 /p 3`
 
 #### Expected outcome:
-The Deadline task would be added to the list.
+The event task would be added to the list.
 Upon success a response similar to the following one would appear:
 
     ________________________________________________________________________________________________
