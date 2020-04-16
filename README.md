@@ -89,6 +89,8 @@ a.backlink:active {
 
 ## 1. Introduction
 
+### Brief Description
+
   OrgaNice! is a task manager integrated with a Study Area search function and a Notes Taking feature. 
   You can use it to manage your tasks, be it events or deadlines. On top of that, 
   it is capable of assisting students in finding Study Areas that meet their desired criteria.
@@ -103,7 +105,13 @@ a.backlink:active {
     E.g, Lectures, Tutorial sessions can be stored as events.
    
  The application can add, edit and delete tasks. It also provides methods to search for tasks. Additionally, it has the ability to store data to a physical location on the computer, so that the tasks always remain in memory.  
-    
+
+
+### Target User
+
+OrgaNice! aims to assist NUS students, and more specifically, users who are comfortable with using a command line interface on their desktop. 
+
+
 <a name="quick-start"></a>
 
 ## 2. Quick Start
