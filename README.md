@@ -154,7 +154,7 @@ OrgaNice! aims to assist NUS students, and more specifically, users who are comf
 
 <a name="add-deadline"></a>
 
-### 3.1. Add new Deadline task
+### 3.1. Add new Deadline task (Sanath)
 Adds a new deadline task to track a task which needs to be finished before a specific date.
 
 #### Usage
@@ -185,7 +185,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="add-event"></a>
 
-### 3.2 Add new Event task
+### 3.2 Add new Event task (Sanath)
 Adds a new deadline task to track a task which needs to be finished before a specific date.
 
 #### Usage
@@ -217,7 +217,7 @@ Upon success a response similar to the following one would appear:
 <a name="delete"></a>
 
 
-### 3.3. Delete task
+### 3.3. Delete task (Sanath)
 If a task is done and you want to remove it from the list this command could be used. It deletes the task at the specified index, usually, one of the various view commands are run to look at the index of the task to be deleted.
 
 #### Usage
@@ -246,7 +246,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="done"></a>
 
-### 3.4. Mark deadline as done
+### 3.4. Mark deadline as done (Sanath)
 If the work to be completed for a deadline is done but you still want to keep it in the list, this command could be used. It marks the deadline at the specified index as done, usually, one of the various view commands are run to look at the index of the deadline to be deleted.
 
 #### Usage
@@ -275,7 +275,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="edit"></a>
 
-### 3.5. Edit task
+### 3.5. Edit task (Sanath)
 If a task has any of its details altered, you can use this command to edit the appropriate field directly. This saves you the trouble of manually deleting and adding a new task. This command is a multi-stage command so that it is easier for you to do it. This command changes the specified field of the task mentioned by its index. To view the index of the task, one of the various commands to view the list of tasks (view, priority_view, countdown) is run. 
 
 Note: The date and time should be provided in the correct format as mentioned [here](#formats).
@@ -333,8 +333,8 @@ Expected outcome:
     ________________________________________________________________________________________________
 
 <a name="clear"></a>
-
-### 3.6. Clear list of tasks
+ 
+### 3.6. Clear list of tasks (Sanath)
 If you would like to clear the current list of tasks and start on a clean slate, this command could be used. Clears the list of tasks stored.
 
 #### Usage
@@ -371,7 +371,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="view"></a>
 
-### 3.7. View list of tasks
+### 3.7. View list of tasks (Sanath)
 If you would like to view the current list of tasks, this command could be used. It shows the current list of tasks stored.
 
 #### Usage
@@ -400,7 +400,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="priority"></a>
 
-### 3.8. View list of tasks sorted by their priority
+### 3.8. View list of tasks sorted by their priority (Sanath)
 If you would like to view the more important tasks from the current list of saved tasks first, this command could be used. It shows the current list of tasks after they are sorted based on their priority.
 
 #### Usage
@@ -431,7 +431,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="countdown"></a>
 
-### 3.9. View list of tasks in a countdown format
+### 3.9. View list of tasks in a countdown format (Sanath)
 If you would like to view the early tasks from the current list of saved tasks first along with the number of days left till the task, this command could be used. It shows the current list of tasks with the number of days left till each task, after they are sorted based on their date.
 
 #### Usage
@@ -464,7 +464,7 @@ Upon success a response similar to the following one would appear:
 
 <a name="search"></a>
 
-### 3.10. Search tasks
+### 3.10. Search tasks (Sanath)
 If you would like to quickly find a task based on its description, this command could be used. It performs a linear search of all tasks stored in the list at the point of execution and list
 all the tasks containing the keyword in their description in a numbered list.
 
@@ -494,7 +494,7 @@ A response similar to the following one would appear:
 
 <a name="help"></a>
     
-### 3.11. View commands supported 
+### 3.11. View commands supported  (Sanath)
 If you are a new user or forgot the syntax of any command, our help command could be used. The command displays the list of commands supported by the application.
 
 #### Usage
@@ -541,7 +541,7 @@ A response similar to the following one would appear:
 
 <a name="schedule"></a>
 
-### 3.12. Schedule tasks
+### 3.12. Schedule tasks (Sanath)
 If you have a bunch of assignments, projects and exams happening over the next few weeks and are stressed out with planning
  a schedule which can fulfil the requirements, our schedule task command can help you by creating a feasible 
 schedule. It creates a schedule based on the details of the tasks provided by you. 
@@ -604,7 +604,7 @@ scheduled over non-contiguous days).
 [comment]: # (@@author NizarMohd)     
 <a name="studyArea"></a>
 
-### 3.13 Study Area Search Feature
+### 3.13 Study Area Search Feature (Nizar)
 
 You can search for study areas based on criteria that you desire by using this feature. You are free to loosely search. 
 For example, if you enter as [this](#search-by-name-address-or-faculty), you will receive a list of  places related 
@@ -737,7 +737,7 @@ Expected output:
 [comment]: # (@@author terrytay)     
 <a name="notes"></a>
 
-### 3.14 Notes Taking Feature
+### 3.14 Notes Taking Feature (Terry)
 
 You can create notes based on modules that you are taking for the semester easily.
 These modules can easily be imported or exported for your convenience.
@@ -971,7 +971,7 @@ you can use `help` to get you around. For more information on importing and expo
 
 
 [comment]: # (@@author NizarMohd)
-### 3.15. Calendar View
+### 3.15. Calendar View (Nizar)
 
 
 #### 3.15.1. Enter Calendar
@@ -1102,7 +1102,7 @@ Expected output:
 [comment]: # (@@author )     
 <a name="exit"></a>
 
-### 3.16. Exit the Application / Study Area interface
+### 3.16. Exit the Application / Study Area interface (Sanath)
 You use this command to exit the application. Before the actual application is exited the 
 tasks currently in the list are stored in a file. This command is used for exiting the main interface and the
 secondary study area search interface.
@@ -1166,12 +1166,12 @@ A response similar to the following one would appear:
 
 <a name="save-tasks"></a>
 
-### 3.17. Saving the data
+### 3.17. Saving the data (Sanath)
 The tasklist is saved automatically before the application is executed. There is no need to save manually.
 
 <a name="clear-old-tasks"></a>
 
-### 3.18. Clearing old tasks
+### 3.18. Clearing old tasks (Sanath)
 The tasklist only includes the tasks which have date beyond the current date. This removes the need for you to manually find and delete the old tasks.
 
 
